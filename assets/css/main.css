@@ -1,0 +1,38 @@
+
+h1 {
+  @apply text-2xl;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+
+body {
+  @apply text-base font-sans font-light;
+}
+
+b, strong {
+  @apply font-semibold;
+}
+
+ul {
+  @apply list-disc list-inside;
+}
+
+ol {
+  @apply list-decimal list-inside;
+}
+
+a {
+  @apply text-green-500;
+
+  &:hover {
+    @apply text-green-700 underline;
+  }
+}
+
+pre[class*="language-"] {
+  @apply rounded;
+}
