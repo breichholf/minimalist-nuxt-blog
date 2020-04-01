@@ -21,15 +21,6 @@
 </script>
 
 <style>
-  body {
-    @apply flex flex-col min-h-screen;
-  }
-
-  img.emoji {
-    @apply inline-block w-4 h-4;
-    margin: 0 .05rem 0 .1rem;
-    vertical-align: -0.1rem;
-  }
 /* html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;

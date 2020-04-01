@@ -10,6 +10,7 @@ h3 {
 }
 
 body {
+  @apply flex flex-col min-h-screen;
   @apply text-base font-sans font-light;
 }
 
@@ -31,6 +32,12 @@ a {
   &:hover {
     @apply text-green-700 underline;
   }
+}
+
+img.emoji {
+  @apply inline-block w-4 h-4;
+  margin: 0 .05rem 0 .1rem;
+  vertical-align: -0.1rem;
 }
 
 pre[class*="language-"] {
