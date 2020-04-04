@@ -16,7 +16,7 @@
 
 <script>
   import DynamicMarkdown from "~/components/DynamicMarkdown.vue"
-  import config from '~/assets/config'
+  import config from '~/assets/config.json'
 
   export default {
     components: {

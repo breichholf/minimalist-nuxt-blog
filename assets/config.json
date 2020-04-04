@@ -1,0 +1,22 @@
+{
+  "lang": "en-GB",
+  "title": "Thin nuxt blog template",
+  "author": "Brian Reichholf",
+  "description": "A minimalist blog template rendering markdown blog entries including code highlighting. CSS powered by Tailwind.",
+  "profiles": {
+    "github": "breichholf",
+    "linkedin": "brianreichholf",
+    "scholar": "WUs-Q8AAAAAJ",
+    "facebook": "breichholf",
+    "instagram": "briantod"
+  },
+  "_profile_comments": {
+    "_general": "Links above will be parsed and placed in order",
+    "_profile_names": "With the exception of github, the profile names will be used to retrieve the path from entypo svg files.",
+    "_github_base_link": "https://github.com/<profile>",
+    "_linkedin_base_link": "https://www.linkedin.com/in/<profile>",
+    "_google_scholar_link": "https://scholar.google.com/citations?user=<id>",
+    "_facebook_profile_link": "https://www.facebook.com/<profile>",
+    "_ig_profile_link": "https://www.instagram.com/<profile>"
+  }
+}
