@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content">
     <!-- <logo /> -->
     <h1>
       A minimalist-nuxt-blog

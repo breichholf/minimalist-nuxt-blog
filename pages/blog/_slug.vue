@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content">
     <div>
       <nuxt-link :to="{path: '/blog'}">
         <svg class="inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 4" aria-hidden="true" style="width: 16px; transform: rotate(180deg);">

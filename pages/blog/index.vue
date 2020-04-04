@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content">
     <BlogList :all-blogs="posts"
     />
   </div>

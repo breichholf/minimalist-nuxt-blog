@@ -2,7 +2,10 @@
   <div class="flex flex-col min-h-screen bg-gray-100 text-gray-900">
     <Navbar />
     <main class="flex-grow p-8">
-      <nuxt />
+      <div class="flex">
+        <nuxt />
+        <Sidebar />
+      </div>
     </main>
     <Footer />
   </div>
@@ -10,11 +13,13 @@
 
 <script>
   import Navbar from '@/components/Sections/Navbar'
+  import Sidebar from '@/components/Sections/Sidebar'
   import Footer from '@/components/Sections/Footer'
 
   export default {
     components: {
       Navbar,
+      Sidebar,
       Footer
     }
   }
