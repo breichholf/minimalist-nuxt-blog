@@ -46,12 +46,24 @@ export default {
         adapter: require('responsive-loader/sharp')
       }
     }, {
-      test: /\.(gif|svg)$/,
+      test: /\.gif$/,
       loader: 'url-loader',
       query: {
         limit: 1000,
         name: 'img/[name].[hash:7].[ext]'
       },
+    }, {
+      test: /\.svg$/i,
+      include: /.*_sprite\.svg$/i,
+      use: [
+        {
+          loader: 'svg-sprite-loader',
+          options: {
+            extract: true,
+            publicPath: '',
+          }
+        },
+      ],
     });
   }
   // postcss: {
