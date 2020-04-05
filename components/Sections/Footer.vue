@@ -1,5 +1,5 @@
 <template>
-  <footer class="w-full bg-gray-900 p-4">
+  <footer class="footer">
     <div>
       <span class="text-indigo-100 font-thin">
         © {{ year }} Open source blog | Powered by

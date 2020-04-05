@@ -2,6 +2,7 @@
   "lang": "en-GB",
   "title": "Thin nuxt blog template",
   "author": "Brian Reichholf",
+  "tagline": "Data Scientist by day<br />Molecular Biology PhD by night",
   "description": "A minimalist blog template rendering markdown blog entries including code highlighting. CSS powered by Tailwind.",
   "profiles": {
     "github": "breichholf",
@@ -11,12 +12,13 @@
     "instagram": "briantod"
   },
   "_profile_comments": {
-    "_general": "Links above will be parsed and placed in order",
-    "_profile_names": "With the exception of github, the profile names will be used to retrieve the path from entypo svg files.",
-    "_github_base_link": "https://github.com/<profile>",
-    "_linkedin_base_link": "https://www.linkedin.com/in/<profile>",
-    "_google_scholar_link": "https://scholar.google.com/citations?user=<id>",
-    "_facebook_profile_link": "https://www.facebook.com/<profile>",
-    "_ig_profile_link": "https://www.instagram.com/<profile>"
+    "_general": "Links above will be parsed and placed in that order",
+    "_link_combination": "If you add new links, you will need a base item below to append the profile to.",
+    "_profile_names": "With the exception of github and scholar, the profile names will be used to retrieve the path from entypo svg files.",
+    "_github_base": "https://github.com/",
+    "_linkedin_base": "https://www.linkedin.com/in/",
+    "_scholar_base": "https://scholar.google.com/citations?user=",
+    "_facebook_base": "https://www.facebook.com/",
+    "_instagram_base": "https://www.instagram.com/"
   }
 }

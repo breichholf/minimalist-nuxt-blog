@@ -1,5 +1,5 @@
 <template>
-  <header id="top" class="bg-white border-b border-gray-900 sm:flex sm:items-center px-4 py-2">
+  <header id="top" class="navbar sm:flex sm:items-center">
     <div class="">
       <div>
         <!-- the image/logo will go here -->
@@ -17,7 +17,7 @@
       </div>
     </div>
     <!-- </nav> -->
-    <nav :class="isOpen ? 'block' : 'hidden'" class="sm:flex px-2 pb-1 flex-grow sm:items-center sm:w-auto">
+    <nav :class="isOpen ? 'block' : 'hidden'" class="sm:flex pb-1 flex-grow sm:items-center sm:w-auto">
       <nuxt-link :to="{name: 'index'}" class="block sm:inline-block sm:mt-0 tw-link mr-4">
           Home
       </nuxt-link>
