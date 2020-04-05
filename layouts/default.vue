@@ -4,7 +4,9 @@
     <main class="flex-grow p-8">
       <div class="flex">
         <nuxt />
-        <Sidebar />
+        <div class="flex-none w-64 pl-4">
+          <Sidebar />
+        </div>
       </div>
     </main>
     <Footer />
