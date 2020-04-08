@@ -1,7 +1,7 @@
 ---
 name: 'mihi-est-dicta'
 title: Mihi est dicta
-date: 1 January 2019
+date: 19 March 2020
 id: 'mihi-est-dicta'
 description: |
   Lorem markdownum suaque, opem Iam festas virtus ipso iratus. Iuncta saetis tot regni umbrae neque ignavi, fuerat rapit!

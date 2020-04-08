@@ -1,7 +1,7 @@
 ---
 name: 'bacon-ipsum'
 title: Bacon Ipsum
-date: 21 March 2020
+date: 20 March 2020
 id: 'bacon-ipsum'
 description: |
   Bacon ipsum dolor amet spare ribs ham t-bone buffalo prosciutto, frankfurter bresaola short ribs cupim ground round filet mignon shoulder pork chuck strip steak.
