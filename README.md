@@ -4,13 +4,13 @@
 
 A starter package to set up a minimalist nuxt blog, containing some bare essential packages, enabling markdown parsing and code highlighting.
 
-## ToDo list
+## To do list
 
 Temporary reminder, to highlight progress as we go along
 
 - [x] Create raw application
 - [x] Add and enable markdown, code highlighting
-- [ ] Add (opinionated) css
+- [x] Add (opinionated) css
 - [ ] Add favicon
 - [x] Add octicons
 - [ ] Add installation instructions
