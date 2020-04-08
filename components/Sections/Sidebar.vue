@@ -9,10 +9,9 @@
       <div class="flex flex-row items-center pt-1">
         <a v-for="social in convertLinks(socialLinks)" class="social-link px-1"
             :key="social.network" :href="social.link">
-          <svg v-if="social.isOcticonMember" class="icon"
-              xmlns="http://www.w3.org/2000/svg" v-html="social.octiconPath">
+          <svg class="icon" viewBox="0 0 20 20"
+               xmlns="http://www.w3.org/2000/svg" v-html="social.svgPath">
           </svg>
-          <svg-icon v-else :name="social.network" />
         </a>
       </div>
     </div>
@@ -21,7 +20,7 @@
 
 <script>
 import config from '~/assets/config.json'
-import octicons from '@primer/octicons'
+import svgicons from '~/assets/svgicons.json'
 
 export default {
   data() {
@@ -32,21 +31,16 @@ export default {
     }
   },
   methods: {
-    convertLinks(profiles) {
-      const iconArray = Object.keys(profiles).map(
+    convertLinks(socialProfiles) {
+      const iconArray = Object.keys(socialProfiles).map(
         function(key, idx) {
           const out = {};
           let base_urls = config['_profile_comments']
           let base_key = '_' + key + '_base'
-          let octiconPath = null;
-          if (key === "github") {
-            octiconPath = octicons['mark-github'].path
-          }
           out['network'] = key;
-          out['link'] = base_urls[base_key] + profile[key];
-          // We will be (ab)using an icon from Octicons for google scholar
-          out['isOcticonMember'] = key === "github" ? true : false;
-          out['octiconPath'] = octiconPath
+          out['link'] = base_urls[base_key] + socialProfiles[key];
+          // Github icon has been modified and incorporated from octicons
+          out['svgPath'] = svgicons[key].path
           return out
         }
       );
