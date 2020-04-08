@@ -46,14 +46,16 @@ export default {
         adapter: require('responsive-loader/sharp')
       }
     }, {
-      test: /\.gif$/,
+      test: /\.(gif|svg)$/,
       loader: 'url-loader',
       query: {
         limit: 1000,
         name: 'img/[name].[hash:7].[ext]'
       },
     }, {
-      test: /\.svg$/i,
+      // Webpack rules are parsed bottom to top, so this takes precendence over
+      // the gif|svg rule
+      test: /.*_sprite\.svg$/i,
       include: /.*_sprite\.svg$/i,
       use: [
         {

@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-col min-h-screen bg-gray-100 text-gray-900">
     <Navbar />
-    <main class="flex-grow p-8">
+    <main class="flex-grow px-8 py-10 md:px-12 lg:px-16 xl:px-20">
       <div class="flex">
         <nuxt />
-        <div class="flex-none w-64 pl-4">
+        <div class="flex-none pl-8">
           <Sidebar />
         </div>
       </div>

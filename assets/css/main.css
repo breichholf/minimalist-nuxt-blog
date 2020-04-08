@@ -67,22 +67,7 @@ pre[class*="language-"] {
   @apply w-full bg-gray-900 px-8 py-6;
 }
 
-div.content {
-  @apply p-0;
-}
-
-.author {
-  @apply text-lg font-normal;
-}
-
-.tagline {
-  @apply italic text-sm text-gray-700 font-thin;
-}
-
 @screen md {
-  div.content{
-    @apply pl-4;
-  }
   .navbar {
     @apply px-12;
   }
@@ -92,9 +77,6 @@ div.content {
 }
 
 @screen lg {
-  div.content {
-    @apply pl-8;
-  }
   .navbar {
     @apply px-16;
   }
@@ -104,9 +86,6 @@ div.content {
 }
 
 @screen xl {
-  div.content {
-    @apply pl-12
-  }
   .navbar {
     @apply px-20;
   }
