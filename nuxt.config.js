@@ -47,12 +47,12 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     // '@nuxtjs/bulma',
     // '@nuxtjs/style-resources'
-    '@nuxtjs/svg-sprite',
+    // '@nuxtjs/svg-sprite',
   ],
-  svgSprite: {
-    input: '~/assets/sprite/svg',
-    output: '~/assets/sprite/gen',
-  },
+  // svgSprite: {
+  //   input: '~/assets/sprite/svg',
+  //   output: '~/assets/sprite/gen',
+  // },
   // styleResources: {
   //   scss: [
   //     '@/assets/scss/main.scss'
