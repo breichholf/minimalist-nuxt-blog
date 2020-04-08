@@ -2,7 +2,7 @@
   <aside class="flex w-48">
     <div class="flex flex-col flex-none items-center">
       <div class="flex flex-col items-center text-center pt-2 pb-2 border-b border-gray-500">
-        <img src="~/assets/profile-pic.svg" class="w-16 h-16 rounded-full overflow-hidden bg-white border border-gray-400" />
+        <img src="~/assets/profile-pic.svg" class="w-16 h-16 rounded-full overflow-hidden bg-white border border-gray-500" />
         <span class="author">{{ author }}</span>
         <span class="tagline" v-html="tagline"></span>
       </div>
