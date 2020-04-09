@@ -14,15 +14,15 @@
   "dependencies": {
     "@nuxtjs/tailwindcss": "^1.4.0",
     "@primer/octicons": "^9.6.0",
-    "responsive-loader": "^1.2.0",
-    "sharp": "^0.25.1",
-    "frontmatter-markdown-loader": "^3.2.1",
     "@toycode/markdown-it-class": "^1.2.3",
+    "frontmatter-markdown-loader": "^3.2.1",
     "markdown-it": "^10.0.0",
     "markdown-it-emoji": "^1.4.0",
     "markdown-it-prism": "^2.0.5",
     "normalize.css": "^8.0.1",
     "nuxt": "^2.0.0",
+    "responsive-loader": "^1.2.0",
+    "sharp": "^0.25.1",
     "twemoji": "^12.1.5"
   },
   "devDependencies": {
