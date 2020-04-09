@@ -14,8 +14,10 @@
   "dependencies": {
     "@nuxtjs/tailwindcss": "^1.4.0",
     "@primer/octicons": "^9.6.0",
-    "@toycode/markdown-it-class": "^1.2.3",
+    "responsive-loader": "^1.2.0",
+    "sharp": "^0.25.1",
     "frontmatter-markdown-loader": "^3.2.1",
+    "@toycode/markdown-it-class": "^1.2.3",
     "markdown-it": "^10.0.0",
     "markdown-it-emoji": "^1.4.0",
     "markdown-it-prism": "^2.0.5",
@@ -28,10 +30,6 @@
     "fs-extra": "^9.0.0",
     "globby": "^11.0.0",
     "lodash.keyby": "^4.6.0",
-    "node-sass": "^4.13.1",
-    "responsive-loader": "^1.2.0",
-    "sass-loader": "^8.0.2",
-    "sharp": "^0.25.1",
     "trim-newlines": "^3.0.0",
     "yargs": "^15.3.1"
   }
