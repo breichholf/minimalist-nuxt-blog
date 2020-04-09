@@ -19,14 +19,14 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    '~/assets/css/main.css',
-    '~/assets/css/prism.css',
+    '@/assets/css/main.css',
+    '@/assets/css/prism.css',
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/prism.js',
+    '@/plugins/prism.js',
   ],
   /*
   ** Nuxt.js dev-modules
@@ -35,8 +35,8 @@ module.exports = {
     '@nuxtjs/tailwindcss'
   ],
   tailwindcss: {
-    configPath: '~/tailwind.config.js',
-    cssPath: '~/assets/css/tailwind.css',
+    configPath: '@/tailwind.config.js',
+    cssPath: '@/assets/css/tailwind.css',
     purgeCSSInDev: false,
     exposeConfig: true
   },
@@ -44,6 +44,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    // 'nuxt-purgecss'
     // '@nuxtjs/svg-sprite',
   ],
   // svgSprite: {
