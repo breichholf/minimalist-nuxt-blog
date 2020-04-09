@@ -32,6 +32,14 @@ module.exports = {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    // '@nuxtjs/tailwindcss'
+  ],
+  /*
+  ** Nuxt.js modules
+  */
+  modules: [
+    // 'nuxt-purgecss'
+    // '@nuxtjs/svg-sprite',
     '@nuxtjs/tailwindcss'
   ],
   tailwindcss: {
@@ -40,13 +48,6 @@ module.exports = {
     purgeCSSInDev: false,
     exposeConfig: true
   },
-  /*
-  ** Nuxt.js modules
-  */
-  modules: [
-    // 'nuxt-purgecss'
-    // '@nuxtjs/svg-sprite',
-  ],
   // svgSprite: {
   //   input: '~/assets/sprite/svg',
   //   output: '~/assets/sprite/gen',
