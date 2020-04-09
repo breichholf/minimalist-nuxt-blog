@@ -1,13 +1,12 @@
-import glob from 'glob'
-import path from 'path'
+const glob = require("glob")
+const path = require("path")
 
-export default async function (urlFilepathTable) {
-  return [].concat(
-    ...Object.keys(urlFilepathTable).map(url => {
-      var filepathGlob = urlFilepathTable[url];
+export default function (urlFilepathTable) {
+  return Object.keys(urlFilepathTable)
+    .map((url) => {
       return glob
-        .sync(filepathGlob, { cwd: 'content' })
-        .map(filepath => `${url}/${path.basename(filepath, '.md')}`);
+        .sync(urlFilepathTable[url], { cwd: "content" })
+        .map((filepath) => `${url}/${path.basename(filepath, ".md")}`)
     })
-  );
-};
+    .flat()
+}

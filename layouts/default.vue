@@ -29,6 +29,37 @@
 
 <style>
 /*
+ Applying some general settings to straigthen out the tailwindcss base
+ */
+h1 {
+  @apply text-2xl;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+
+body {
+  @apply flex flex-col min-h-screen;
+  @apply text-base font-sans font-light;
+  @apply overflow-y-scroll;
+}
+
+b, strong {
+  @apply font-semibold;
+}
+
+ul {
+  @apply list-disc list-inside;
+}
+
+ol {
+  @apply list-decimal list-inside;
+}
+
+/*
  Custom Settings -- Links
  */
 a:not(.social-link) {
