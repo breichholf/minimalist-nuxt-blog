@@ -2,14 +2,11 @@
   <footer class="footer">
     <div>
       <span class="text-indigo-100 font-thin">
-        © {{ year }} Open source blog | Powered by
-        <span class="italic">Nuxt.js</span>
-        | Design by
-        <span class="italic">Brian Reichholf</span>
+        © {{ year }} Brian Reichholf, all rights reserved
       </span>
-      <a href="#top" class="text-blue-400 hover:text-blue-600 hover:underline">
+      <!-- <a href="#top" class="text-blue-400 hover:text-blue-600 hover:underline">
         Return to top
-      </a>
+      </a> -->
     </div>
   </footer>
 </template>

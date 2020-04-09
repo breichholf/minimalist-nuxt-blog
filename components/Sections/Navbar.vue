@@ -21,12 +21,12 @@
       <nuxt-link :to="{name: 'index'}" class="block sm:inline-block sm:mt-0 tw-link mr-4">
           Home
       </nuxt-link>
-      <nuxt-link :to="{name: 'index'}" class="block sm:inline-block sm:mt-0 tw-link mr-4">
+      <nuxt-link :to="{name: 'about'}" class="block sm:inline-block sm:mt-0 tw-link mr-4">
           About
       </nuxt-link>
-      <nuxt-link :to="{name: 'index'}" class="block sm:inline-block sm:mt-0 tw-link mr-4">
+      <!-- <nuxt-link :to="{name: 'index'}" class="block sm:inline-block sm:mt-0 tw-link mr-4">
           Projects
-      </nuxt-link>
+      </nuxt-link> -->
       <nuxt-link :to="{path: '/blog'}" class="block sm:inline-block sm:mt-0 tw-link">
           Blog
       </nuxt-link>
