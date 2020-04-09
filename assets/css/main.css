@@ -30,33 +30,6 @@ ol {
 }
 
 /*
- Custom Settings -- Links
- */
-a:not(.social-link) {
-  @apply text-green-500;
-
-  &:hover {
-    @apply text-green-700 underline;
-  }
-}
-
-/*
- Correct twemoji flow in text
- */
-img.emoji {
-  @apply inline-block w-4 h-4;
-  margin: 0 .05rem 0 .1rem;
-  vertical-align: -0.1rem;
-}
-
-/*
- Settings for markdown-it-prism code highlighting
- */
-pre[class*="language-"] {
-  @apply rounded;
-}
-
-/*
  General settings for navbar/content/sidebar/footer
  */
 .navbar {

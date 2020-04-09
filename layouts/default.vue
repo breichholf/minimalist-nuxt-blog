@@ -28,6 +28,33 @@
 </script>
 
 <style>
+/*
+ Custom Settings -- Links
+ */
+a:not(.social-link) {
+  @apply text-green-500;
+
+  &:hover {
+    @apply text-green-700 underline;
+  }
+}
+
+/*
+ Settings for markdown-it-prism code highlighting
+ */
+pre[class*="language-"] {
+  @apply rounded;
+}
+
+/*
+ Correct twemoji flow in text
+ */
+img.emoji {
+  @apply inline-block w-4 h-4;
+  margin: 0 .05rem 0 .1rem;
+  vertical-align: -0.1rem;
+}
+
 /* html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -40,39 +67,5 @@
   box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-} */
+ */
 </style>
