@@ -44,19 +44,11 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    // '@nuxtjs/bulma',
-    // '@nuxtjs/style-resources'
     // '@nuxtjs/svg-sprite',
   ],
   // svgSprite: {
   //   input: '~/assets/sprite/svg',
   //   output: '~/assets/sprite/gen',
-  // },
-  // styleResources: {
-  //   scss: [
-  //     '@/assets/scss/main.scss'
-  //   ],
   // },
   /*
   ** Build configuration
@@ -65,14 +57,10 @@ module.exports = {
 
   generate: {
     fallback: true,
-    routes: dynamicRoute({
-      '/blog': 'blog/*.md'
-    })
-  },
-
-  slugs: {
-    blog: dynamicRoute({
-      '/blog': 'blog/*.md'
-    })
+    routes: [
+      dynamicRoute({
+        '/blog': 'blog/*.md'
+      })
+    ],
   }
 }
