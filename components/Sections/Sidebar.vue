@@ -4,10 +4,7 @@
       <div
         class="flex flex-col items-center text-center pt-2 pb-2 border-b border-gray-500"
       >
-        <img
-          src="~/assets/profile-pic.svg"
-          class="w-16 h-16 rounded-full overflow-hidden bg-white border border-gray-500"
-        />
+        <img src="~/assets/profile-pic.svg" class="profile" />
         <span class="author">{{ author }}</span>
         <span class="tagline" v-html="tagline"></span>
       </div>
@@ -77,6 +74,11 @@ export default {
 
 .tagline {
   @apply italic text-xs text-gray-700 font-thin;
+}
+
+.profile {
+  @apply w-16 h-16 rounded-full overflow-hidden bg-white;
+  box-shadow: inset 0 0 0.25rem 0 rgba(0, 0, 0, 0.25);
 }
 
 /* .social-link {
