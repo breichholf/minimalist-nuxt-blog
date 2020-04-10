@@ -60,33 +60,6 @@ ol {
   @apply list-decimal list-inside;
 }
 
-/*
- Custom Settings -- Links
- */
-a:not(.social-link) {
-  @apply text-green-500;
-
-  &:hover {
-    @apply text-green-700 underline;
-  }
-}
-
-/*
- Settings for markdown-it-prism code highlighting
- */
-pre[class*="language-"] {
-  @apply rounded;
-}
-
-/*
- Correct twemoji flow in text
- */
-img.emoji {
-  @apply inline-block w-4 h-4;
-  margin: 0 0.05rem 0 0.1rem;
-  vertical-align: -0.1rem;
-}
-
 /* html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;

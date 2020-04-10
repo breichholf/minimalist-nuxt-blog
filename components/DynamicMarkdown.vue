@@ -48,4 +48,31 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+/*
+ Custom Settings -- Links
+ */
+a:not(.social-link) {
+  @apply text-green-500;
+
+  &:hover {
+    @apply text-green-700 underline;
+  }
+}
+
+/*
+ Settings for markdown-it-prism code highlighting
+ */
+pre[class*="language-"] {
+  @apply rounded;
+}
+
+/*
+ Correct twemoji flow in text
+ */
+img.emoji {
+  @apply inline-block w-4 h-4;
+  margin: 0 0.05rem 0 0.1rem;
+  vertical-align: -0.1rem;
+}
+</style>
