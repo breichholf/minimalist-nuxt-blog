@@ -1,15 +1,18 @@
 <template>
   <div>
-    <h1>Who am I?</h1>
+    <h1>History, purpose and usage</h1>
     <article>
-      Growing up I always wanted to know how things worked. Initially this
-      manifested relating to electronics, and later biology, specifically
-      molecular biology. <br />
-      While breaking through the barrier of what is known, and contributing to a
-      highly specific topic during my PhD I came to enjoy the analytical side:
-      processing, transforming then ultimately visualising data in an easily
-      digestible format. Now, I am embarking on a journey of Data Analysis and
-      Data Science; ever learning and enjoying the process along the way.
+      Lorem ipsum is placeholder text commonly used in the graphic, print, and
+      publishing industries for previewing layouts and visual mockups. <br />
+      Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+      laying out print, graphic or web designs. The passage is attributed to an
+      unknown typesetter in the 15th century who is thought to have scrambled
+      parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen
+      book. It usually begins with:
+      <blockquote>
+        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.”
+      </blockquote>
     </article>
   </div>
 </template>
