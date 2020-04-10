@@ -60,6 +60,17 @@ ol {
   @apply list-decimal list-inside;
 }
 
+/*
+ Custom Settings -- Links
+ */
+a:not(.social-link) {
+  @apply text-green-500;
+
+  &:hover {
+    @apply text-green-700 underline;
+  }
+}
+
 /* html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;

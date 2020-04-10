@@ -50,17 +50,6 @@ export default {
 
 <style scoped>
 /*
- Custom Settings -- Links
- */
-a:not(.social-link) {
-  @apply text-green-500;
-
-  &:hover {
-    @apply text-green-700 underline;
-  }
-}
-
-/*
  Settings for markdown-it-prism code highlighting
  */
 pre[class*="language-"] {
@@ -74,5 +63,9 @@ img.emoji {
   @apply inline-block w-4 h-4;
   margin: 0 0.05rem 0 0.1rem;
   vertical-align: -0.1rem;
+}
+
+blockquote {
+  @apply p-4 italic;
 }
 </style>
