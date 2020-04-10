@@ -9,7 +9,7 @@
           class="w-16 h-16 rounded-full overflow-hidden bg-white border border-gray-500"
         />
         <span class="author">{{ author }}</span>
-        <span class="tagline">{{ tagline }}</span>
+        <span class="tagline" v-html="tagline"></span>
       </div>
       <div class="flex flex-row items-center pt-1">
         <a
@@ -38,6 +38,8 @@ export default {
   data() {
     return {
       author: config.author,
+      // The tagline could be applied with handlebars, but as it contains
+      // HTML code needs to be wrapped in v-html to display correctly
       tagline: config.tagline,
       socialLinks: config.profiles,
     }
