@@ -48,24 +48,4 @@ export default {
 }
 </script>
 
-<style scoped>
-/*
- Settings for markdown-it-prism code highlighting
- */
-pre[class*="language-"] {
-  @apply rounded;
-}
-
-/*
- Correct twemoji flow in text
- */
-img.emoji {
-  @apply inline-block w-4 h-4;
-  margin: 0 0.05rem 0 0.1rem;
-  vertical-align: -0.1rem;
-}
-
-blockquote {
-  @apply p-4 italic;
-}
-</style>
+<style scoped></style>

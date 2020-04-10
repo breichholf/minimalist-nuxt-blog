@@ -71,6 +71,26 @@ a:not(.social-link) {
   }
 }
 
+/*
+ Settings for markdown-it-prism code highlighting
+ */
+pre[class*="language-"] {
+  @apply rounded;
+}
+
+/*
+ Correct twemoji flow in text
+ */
+img.emoji {
+  @apply inline-block w-4 h-4;
+  margin: 0 0.05rem 0 0.1rem;
+  vertical-align: -0.1rem;
+}
+
+blockquote {
+  @apply p-4 italic;
+}
+
 /* html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
