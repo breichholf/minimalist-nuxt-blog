@@ -26,10 +26,19 @@
     "twemoji": "^12.1.5"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "cheerio": "^1.0.0-rc.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-loader": "^4.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.2.2",
     "fs-extra": "^9.0.0",
     "globby": "^11.0.0",
     "lodash.keyby": "^4.6.0",
+    "prettier": "^2.0.4",
+    "stylelint": "^13.3.1",
     "trim-newlines": "^3.0.0",
     "yargs": "^15.3.1"
   }
