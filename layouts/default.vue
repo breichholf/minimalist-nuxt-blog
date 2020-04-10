@@ -14,17 +14,17 @@
 </template>
 
 <script>
-  import Navbar from '@/components/Sections/Navbar'
-  import Sidebar from '@/components/Sections/Sidebar'
-  import Footer from '@/components/Sections/Footer'
+import Navbar from "@/components/Sections/Navbar"
+import Sidebar from "@/components/Sections/Sidebar"
+import Footer from "@/components/Sections/Footer"
 
-  export default {
-    components: {
-      Navbar,
-      Sidebar,
-      Footer
-    }
-  }
+export default {
+  components: {
+    Navbar,
+    Sidebar,
+    Footer,
+  },
+}
 </script>
 
 <style>
@@ -47,7 +47,8 @@ body {
   @apply overflow-y-scroll;
 }
 
-b, strong {
+b,
+strong {
   @apply font-semibold;
 }
 
@@ -82,7 +83,7 @@ pre[class*="language-"] {
  */
 img.emoji {
   @apply inline-block w-4 h-4;
-  margin: 0 .05rem 0 .1rem;
+  margin: 0 0.05rem 0 0.1rem;
   vertical-align: -0.1rem;
 }
 
