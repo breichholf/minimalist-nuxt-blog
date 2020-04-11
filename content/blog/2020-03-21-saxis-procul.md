@@ -53,14 +53,14 @@ dextras](http://rarissima.net/rami-caudaque.aspx). Tela loquenti aegram, quoque
 duas et arboribus populos ab dubita eripis quia dei.
 
 ```javascript
-    var rosetta_youtube = backup_syn_hibernate;
-    var tiger_error_rte = device_networking(vertical_blacklist(xml),
-            graphicsFavicon + nybbleTCompatible, crm_sms);
-    loadSessionSerp.frozenIpBloatware(yottabytePeripheralBoot(encryption, irc),
-            hertz(tweenWindowsDhcp, boxProtocol));
-    network(cycle_duplex_del(xsltDirectx), firmwareBalance, 5);
-    var multithreadingRootDrop = non.record_cad_ipx(software(www - pppThread),
-            5, metaMashup - hdv_word);
+var rosetta_youtube = backup_syn_hibernate;
+var tiger_error_rte = device_networking(vertical_blacklist(xml),
+        graphicsFavicon + nybbleTCompatible, crm_sms);
+loadSessionSerp.frozenIpBloatware(yottabytePeripheralBoot(encryption, irc),
+        hertz(tweenWindowsDhcp, boxProtocol));
+network(cycle_duplex_del(xsltDirectx), firmwareBalance, 5);
+var multithreadingRootDrop = non.record_cad_ipx(software(www - pppThread),
+        5, metaMashup - hdv_word);
 ```
 
 Fuissem et illo, morte opus *fetum* ast removete terga clauserat inhaesi sonanti

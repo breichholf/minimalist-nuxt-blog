@@ -1,12 +1,10 @@
 <template>
   <div class="flex flex-col min-h-screen bg-gray-100 text-gray-900">
     <Navbar />
-    <main class="flex-grow px-8 py-10 md:px-12 lg:px-16 xl:px-20">
-      <div class="flex">
-        <nuxt />
-        <div class="flex-none pl-8">
-          <Sidebar />
-        </div>
+    <main class="flex flex-grow pt-24 py-10 px-8 md:px-24 lg:px-32 xl:px-40">
+      <nuxt />
+      <div class="flex-none pl-8">
+        <Sidebar />
       </div>
     </main>
     <Footer />
@@ -60,6 +58,17 @@ ol {
   @apply list-decimal list-inside;
 }
 
+main {
+  @apply w-full;
+}
+
+.content {
+  /* We need to restrict width here,
+   * or the rendered code box will overflow
+   */
+  @apply flex-grow w-1/2;
+}
+
 /*
  Custom Settings -- Links
  */
@@ -75,7 +84,11 @@ a:not(.social-link) {
  Settings for markdown-it-prism code highlighting
  */
 pre[class*="language-"] {
-  @apply rounded;
+  @apply rounded inline-flex overflow-x-scroll;
+}
+
+code[class*="language-"] {
+  @apply inline-block;
 }
 
 /*
