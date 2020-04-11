@@ -1,6 +1,6 @@
 <template>
-  <aside class="flex w-48">
-    <div class="flex flex-col flex-none items-center">
+  <aside class="flex">
+    <div class="flex flex-col flex-none items-center w-48">
       <div
         class="flex flex-col items-center text-center pt-2 pb-2 border-b border-gray-500"
       >
