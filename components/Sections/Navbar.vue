@@ -1,5 +1,5 @@
 <template>
-  <header id="top" class="navbar sm:flex sm:items-center">
+  <header id="top" class="navbar fixed inset-x-0 top-0 shadow sm:flex sm:items-center">
     <div class="">
       <div>
         <!-- the image/logo will go here -->
