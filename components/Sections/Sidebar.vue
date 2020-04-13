@@ -2,7 +2,7 @@
   <aside class="flex">
     <div class="flex flex-col flex-none items-center w-48">
       <div
-        class="flex flex-col items-center text-center pt-2 pb-2 border-b border-gray-500"
+        class="flex flex-col items-center text-center pt-2 pb-2 border-b border-grey-400"
       >
         <img src="~/assets/profile-pic.svg" class="profile" />
         <span class="author">{{ author }}</span>
@@ -61,19 +61,19 @@ export default {
 
 <style scoped>
 .icon {
-  @apply fill-current text-gray-500 inline-block w-4 h-4;
+  @apply fill-current text-grey-500 inline-block w-4 h-4;
 
   &:hover {
-    @apply text-gray-900;
+    @apply text-grey-900;
   }
 }
 
 .author {
-  @apply text-lg font-normal;
+  @apply font-sans text-lg font-normal;
 }
 
 .tagline {
-  @apply italic text-xs text-gray-700 font-thin;
+  @apply italic text-xs text-grey-700 font-thin;
 }
 
 .profile {

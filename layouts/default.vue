@@ -1,9 +1,9 @@
 <template>
-  <div class="flex flex-col min-h-screen bg-gray-100 text-gray-900">
+  <div class="flex flex-col min-h-screen bg-grey-200 text-grey-1000">
     <Navbar />
-    <main class="container mx-auto flex flex-grow py-24">
+    <main class="container mx-auto flex flex-grow py-24 px-12">
       <nuxt />
-      <div class="flex-none pl-8 w-56">
+      <div class="hidden flex-none pl-8 w-56 md:block">
         <Sidebar />
       </div>
     </main>
@@ -30,18 +30,18 @@ export default {
  Applying some general settings to straigthen out the tailwindcss base
  */
 h1 {
-  @apply text-2xl;
+  @apply font-serif text-2xl;
 }
 h2 {
-  @apply text-xl;
+  @apply font-serif font-normal text-xl;
 }
 h3 {
-  @apply text-lg;
+  @apply font-serif font-normal text-lg;
 }
 
 body {
   @apply flex flex-col min-h-screen;
-  @apply text-base font-sans font-light;
+  @apply text-base font-light;
   @apply overflow-y-scroll;
 }
 
@@ -76,7 +76,7 @@ a:not(.social-link) {
   @apply text-green-500;
 
   &:hover {
-    @apply text-green-700 underline;
+    @apply text-green-800 underline;
   }
 }
 

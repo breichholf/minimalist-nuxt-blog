@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <div>
+    <div class="footertext container mx-auto ">
       <span class="text-indigo-100 font-thin">
         © {{ year }} Brian Reichholf, all rights reserved
       </span>
@@ -22,39 +22,11 @@ export default {
 </script>
 
 <style scoped>
-/* .footer {
-	&__info {
-		background-color: #030303; // $secondary;
-		padding: 1.5em 0;
-  }
+.footer {
+  @apply w-full bg-bluegrey-1000;
+}
 
-  &__info-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    flex-direction: column;
-    @media (min-width: 750px){
-      flex-direction: row;
-    }
-  }
-	&__copyright {
-		text-align: center;
-		@media (min-width: 750px) {
-			text-align: inherit;
-		}
-	}
-	&__top-page {
-		color: white;
-		display: block;
-		text-align: center;
-		line-height: 1;
-		-webkit-transition: 1s;
-		-moz-transition: 1s;
-    transition: 1s;
-
-		@media (min-width: 750px){
-			text-align: right;
-		}
-	}
-} */
+.footertext{
+  @apply text-bluegrey-100 font-thin px-12 py-6;
+}
 </style>

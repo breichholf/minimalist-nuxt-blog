@@ -13,7 +13,7 @@
           {{ article.attributes.title }}
         </nuxt-link>
       </h2>
-      <div class="flex items-center text-gray-500">
+      <div class="flex items-center text-grey-500">
         <svg
           class="h-4 w-4 fill-current inline-block mr-1"
           xmlns="http://www.w3.org/2000/svg"
