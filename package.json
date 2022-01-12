@@ -16,7 +16,7 @@
     "@primer/octicons": "^9.6.0",
     "@toycode/markdown-it-class": "^1.2.3",
     "frontmatter-markdown-loader": "^3.2.1",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-emoji": "^1.4.0",
     "markdown-it-prism": "^2.0.5",
     "normalize.css": "^8.0.1",
