@@ -22,7 +22,7 @@
     "normalize.css": "^8.0.1",
     "nuxt": "^2.0.0",
     "responsive-loader": "^1.2.0",
-    "sharp": "^0.25.1",
+    "sharp": "^0.30.5",
     "twemoji": "^12.1.5"
   },
   "devDependencies": {
